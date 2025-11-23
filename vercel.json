@@ -1,4 +1,10 @@
 {
   "framework": null,
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "dist/server/index.js"
+    }
+  ]
 }
